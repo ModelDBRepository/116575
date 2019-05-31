@@ -1,0 +1,45 @@
+NEURONS
+C C.neu white
+C1 C1234.neu white
+C1a C1a.neu white
+C2 C1234.neu white
+C2a C2a.neu white
+C3 C1234.neu white
+C3a C3a.neu white
+C4 C1234.neu white
+C4a C4a.neu white
+R R.neu blue
+R1 R1.neu blue
+S S.neu red
+S1 S123.neu red
+S1a Sabcd.neu red
+S2 S123.neu red
+S2a Sabcd.neu red
+S3 S123.neu red
+S3a Sabcd.neu red
+S4 S123.neu red
+S4a Sabcd.neu red
+CONNECTIONS
+C1 C e 0 0 AxonalRes.es N white
+C1 C2 e 0 0 AxonalRes.es N white
+C1 R1 c1 glutamate 0 glutamate.cs N green
+C1a C1 e 0 0 AxonalRes.es N white
+C1a S1a e 0 0 SC.es N white
+C2 C2a e 0 0 AxonalRes.es N white
+C2 C3 e 0 0 AxonalRes.es N white
+C2 C4 e 0 0 AxonalRes.es N white
+C2a S3a e 0 0 SC.es N white
+C3 C3a e 0 0 AxonalRes.es N white
+C3a S2a e 0 0 SC.es N white
+C4 C4a e 0 0 AxonalRes.es N white
+C4a S4a e 0 0 SC.es N white
+R R1 e 0 0 AxonalRes.es N blue
+S S1 e 0 0 AxonalRes.es N red
+S1 S1a e 0 0 AxonalRes.es N white
+S1 S2 e 0 0 AxonalRes.es N white
+S1 S3 e 0 0 AxonalRes.es N white
+S2 S2a e 0 0 AxonalRes.es N white
+S3 S2 e 0 0 AxonalRes.es N white
+S3 S3a e 0 0 AxonalRes.es N white
+S3 S4 e 0 0 AxonalRes.es N white
+S4 S4a e 0 0 AxonalRes.es N white

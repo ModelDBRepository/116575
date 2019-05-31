@@ -1,0 +1,60 @@
+
+>------------------------------->--------------------------------------->
+  VAR_TO_GRAPH: 		>	List of current contributing	>
+				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	1			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		10          	>	Number of Tic Marks		>
+		0.08        	>	Min Value of X			>
+		0.25        	>	Max Value of X			>
+		red          	>	Color of Range			>
+	V[S....]<{ivr}        	>	Var Name for Y-axis		>
+		10          	>	Number of Tic Marks		>
+		-70.00      	>	Min Value of Y			>
+		45.00       	>	Max Value of Y			>
+		red           	>	Color of RAnge			>
+	V[C....]<{svr}        	>	Var Name for Y-axis		>
+		10          	>	Number of Tic Marks		>
+		-50.00      	>	Min Value of Y			>
+		60.00       	>	Max Value of Y			>
+		gray          	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	1			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		10          	>	Number of Tic Marks		>
+		0.08        	>	Min Value of X			>
+		0.25        	>	Max Value of X			>
+		white        	>	Color of Range			>
+	sIex[S....]<{ivr}     	>	Var Name for Y-axis		>
+		10          	>	Number of Tic Marks		>
+		-1.00       	>	Min Value of Y			>
+		30.00       	>	Max Value of Y			>
+		white         	>	Color of RAnge			>
+	sIex[C....]<{ivr}     	>	Var Name for Y-axis		>
+		10          	>	Number of Tic Marks		>
+		-1.00       	>	Min Value of Y			>
+		30.00       	>	Max Value of Y			>
+		red           	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+>------------------------------->--------------------------------------->
+   VAR_TO_FILE: 		>	List of current contributing	>
+>				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	time<{ivr}             	>	VAR name			>
+	V[S....]<{ivr}         	>	VAR name			>
+	V[C....]<{svr}         	>	VAR name			>
+	sIex[S....]<{ivr}      	>	VAR name			>
+	sIex[C....]<{ivr}      	>	VAR name			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+END:

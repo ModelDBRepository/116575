@@ -1,0 +1,246 @@
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		>>    MODULES NAME: ntw		>>
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+>----------------------->------------------------------->
+  LIST_NEURONS:		>	List of Neurons		>
+>.......................>...............................>
+	C               >	Neuron's name		>
+	C.neu           >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C1              >	Neuron's name		>
+	C1234.neu       >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C1a             >	Neuron's name		>
+	C1a.neu         >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C2              >	Neuron's name		>
+	C1234.neu       >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C2a             >	Neuron's name		>
+	C2a.neu         >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C3              >	Neuron's name		>
+	C1234.neu       >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C3a             >	Neuron's name		>
+	C3a.neu         >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C4              >	Neuron's name		>
+	C1234.neu       >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	C4a             >	Neuron's name		>
+	C4a.neu         >	File Name		>
+	white           >	Color Name		>
+>.......................>...............................>
+	R               >	Neuron's name		>
+	R.neu           >	File Name		>
+	blue            >	Color Name		>
+>.......................>...............................>
+	R1              >	Neuron's name		>
+	R1.neu          >	File Name		>
+	blue            >	Color Name		>
+>.......................>...............................>
+	S               >	Neuron's name		>
+	S.neu           >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S1              >	Neuron's name		>
+	S123.neu        >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S1a             >	Neuron's name		>
+	Sabcd.neu       >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S2              >	Neuron's name		>
+	S123.neu        >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S2a             >	Neuron's name		>
+	Sabcd.neu       >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S3              >	Neuron's name		>
+	S123.neu        >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S3a             >	Neuron's name		>
+	Sabcd.neu       >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S4              >	Neuron's name		>
+	S123.neu        >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	S4a             >	Neuron's name		>
+	Sabcd.neu       >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  LIST_CELLS:		>	Cells	>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  CHEMSYN:		>	Chemical synapse	>
+>.......................>...............................>
+	R1              > Name of postsynaptic neuron	>
+	C1              > Name of presynaptic neuron	>
+	glutamate       > type of synapse		>
+	glutamate.cs    > File Name			>
+	green           > Color Name			>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  ELCTRCPL:		>	Electrical coupling	>
+>.......................>...............................>
+	C               > Name of postsynaptic neuron	>
+	C1              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C2              > Name of postsynaptic neuron	>
+	C1              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C1              > Name of postsynaptic neuron	>
+	C1a             > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S1a             > Name of postsynaptic neuron	>
+	C1a             > Name of presynaptic neuron	>
+	SC.es           > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C2a             > Name of postsynaptic neuron	>
+	C2              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C3              > Name of postsynaptic neuron	>
+	C2              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C4              > Name of postsynaptic neuron	>
+	C2              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S3a             > Name of postsynaptic neuron	>
+	C2a             > Name of presynaptic neuron	>
+	SC.es           > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C3a             > Name of postsynaptic neuron	>
+	C3              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S2a             > Name of postsynaptic neuron	>
+	C3a             > Name of presynaptic neuron	>
+	SC.es           > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	C4a             > Name of postsynaptic neuron	>
+	C4              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S4a             > Name of postsynaptic neuron	>
+	C4a             > Name of presynaptic neuron	>
+	SC.es           > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	R1              > Name of postsynaptic neuron	>
+	R               > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	blue            > Color Name			>
+>.......................>...............................>
+	S1              > Name of postsynaptic neuron	>
+	S               > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	red             > Color Name			>
+>.......................>...............................>
+	S1a             > Name of postsynaptic neuron	>
+	S1              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S2a             > Name of postsynaptic neuron	>
+	S2              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S2              > Name of postsynaptic neuron	>
+	S3              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S3a             > Name of postsynaptic neuron	>
+	S3              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S4              > Name of postsynaptic neuron	>
+	S3              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S4a             > Name of postsynaptic neuron	>
+	S4              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S2              > Name of postsynaptic neuron	>
+	S1              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	S3              > Name of postsynaptic neuron	>
+	S1              > Name of presynaptic neuron	>
+	AxonalRes.es    > File Name			>
+	white           > Color Name			>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  MODULSYN:		>	Modulatory synapse	>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  WEIGHT:		>	Weights	>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  RECSYN:		>	Receptor synapse	>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+END
